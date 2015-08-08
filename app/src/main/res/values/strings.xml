@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestCamera</string>
+    <string name="finish">Back</string>
+    <string name="switch_camera">Switch</string>
+    <string name="capture">Capture</string>
+    <string name="flashlightoff">FlashOff</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

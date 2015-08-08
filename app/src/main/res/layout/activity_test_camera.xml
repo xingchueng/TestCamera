@@ -1,0 +1,63 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestCameraActivity" >
+
+    <SurfaceView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="590dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center|bottom"
+        >
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish"
+            android:layout_weight="1"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_camera"
+            android:layout_weight="1"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/capture"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/flashlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flashlightoff"
+            android:layout_weight="1"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.testcamera.FocusIndicatorRotateLayout
+            android:id="@+id/focus_indicator_rotate_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true">
+            <View android:id="@+id/focus_indicator"
+                android:layout_height="60dp"
+                android:layout_width="60dp"/>
+        </com.example.testcamera.FocusIndicatorRotateLayout>
+    </RelativeLayout>
+
+</merge>
+
