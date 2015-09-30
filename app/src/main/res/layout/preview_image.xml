@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        tools:context=".ShowImage" >
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="matrix" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="center|bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <Button
+                android:id="@+id/back"
+                android:text="@string/back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                >
+            </Button>
+            <Button
+                android:id="@+id/delete"
+                android:text="@string/delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                >
+            </Button>
+            <Button
+                android:id="@+id/retake"
+                android:text="@string/retake"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                >
+            </Button>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -4,7 +4,7 @@
     <string name="switch_camera">Switch</string>
     <string name="capture">Capture</string>
     <string name="flashlightoff">FlashOff</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="retake">ReTake</string>
 </resources>

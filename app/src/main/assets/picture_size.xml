@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <size>
+        <platform>mtk</platform>
+        <front_height>1088</front_height>
+        <front_width>1920</front_width>
+        <back_height>1920</back_height>
+        <back_width>2560</back_width>
+    </size>
+    <size>
+        <platform>samsung</platform>
+        <back_height>1944</back_height>
+        <back_width>2592</back_width>
+        <front_height>1080</front_height>
+        <front_width>1920</front_width>
+    </size>
+
+</resources>

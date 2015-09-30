@@ -22,7 +22,7 @@ public class FocusIndicatorRotateLayout extends RotateLayout {
         super(context, attrs);
     }
     private void setDrawable(int resid) {
-        mChild.setBackgroundDrawable(getResources().getDrawable(resid));
+        mChild.setBackground(getResources().getDrawable(resid, null));
     }
 
     public void showStart() {
@@ -71,7 +71,7 @@ public class FocusIndicatorRotateLayout extends RotateLayout {
     private class Disappear implements Runnable {
         @Override
         public void run() {
-            mChild.setBackgroundDrawable(null);
+            mChild.setBackground(null);
             mState = STATE_IDLE;
         }
     }
